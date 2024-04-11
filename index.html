@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content ="width=device-width">
+    <title>SalesPrediction</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap&subset0japanese" rel="stylesheet">
+    <link rel ="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="site">
+        <img src="img/bb.svg" alt="">
+        <div>
+            <p class="corp">売上予測</p>
+            <p class="desc">未来を予測</p>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1 class="upload">データファイルのアップロード</h1>
+    <p>
+        <form method="POST" action="/upload" enctype="multipart_form-data">
+            <p>
+                <label for ="file">アップロードするファイルの選択:</label>
+                    <input type="file" name="file">
+            </p>
+            
+        </form>
+    </p>
+
+    <h1 class="span">予測期間</h1>
+        <dev class ="text">~</dev>
+        <input type="text" id="comment" name="comment" value="I'm a text field" />
+    <p>
+
+    </p>
+    <br>
+    
+
+
+    <button type="submit">アップロード</button>
+
+
+</section>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,figure{
+    maring:0;
+    padding:0;
+}
+
+a{
+    color:ingerit;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.8;;
+}
+
+/* ヘッダー */
+.site{
+    display :flex;
+    align-items:center;
+    background-color: aqua;
+}
+
+.site img{
+    width:42px;
+    margin-right: 10px;
+}
+
+.site .corp{
+    color:#333333;
+    font-size:12px;
+    font-weight:900;
+    line-height:1.4;
+}
+
+.site .desc{
+    color:#707F89;
+    font-size:10px;
+    line-height:1.4;
+}
+
+/* ヒーロー */
+.hero{
+    height: 400px;
+    background-image:url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
